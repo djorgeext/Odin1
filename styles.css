@@ -1,0 +1,23 @@
+@font-face {
+    font-family: "Norse Bold";
+    src: url(images/Norse-Bold.otf);
+}
+
+body{
+    margin: 0;
+}
+
+.main-container{
+    display: flex;
+}
+
+.side-img{
+    background: url("images/halie-west-25xggax4bSA-unsplash.jpg");
+    width: 39%;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+
+}
