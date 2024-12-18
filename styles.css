@@ -21,3 +21,81 @@ body{
 
 
 }
+
+.top-text{
+    font-family: "Norse Bold", sans-serif;
+    color: white;
+    font-size: 5.5em;
+    display: flex;
+}
+
+.top-text-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.542);
+    height: 150px;
+    position: relative;
+    bottom: 46%;
+}
+
+.logo{
+    width: 90px;
+}
+
+.bottom-text{
+    text-align: center;
+    color: white;
+    /* flex: 1; */
+}
+
+a{
+    color: white;
+    /* flex: 1; */
+}
+
+span{
+    font-style: italic;
+}
+
+.font-container{
+    box-sizing: border-box;
+    /* font-family: 'Roboto'; */
+    /* font-weight: bold; */
+    /* width: 61%; */
+    flex: 1;    
+}
+
+.descriptions-container{
+    width: 100%;
+    /* margin-top: 100px; */
+    padding-left: 10px;
+    padding: 150px 10px 48px;
+    background-color: rgb(244, 240, 240);
+    box-sizing: border-box;
+}
+
+.description{
+    font-size: 1.5em;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+
+.do-it{
+    font-size: 2em;
+    font-weight: 500;
+    font-family: sans-serif;
+    color: rgb(60, 56, 56);
+    margin-left: 50px;
+}
+
+label{
+    font-family: 'Roboto';
+    font-weight: 700;
+    color: rgb(74, 71, 71);
+    font-size: 1em;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+

@@ -18,10 +18,58 @@
         <div class="form-container">
             <div class="descriptions-container">
                 <p class="description">This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <span>now</span>  and get started.</p>
+                <p class="description">You <span>know </span>you want to</p>   
+            </div>
+            <div class="form">
+                <p class="do-it">Let's do this!</p>
+                <form action="post">
+                    <div class="all-input">
+
+                        <div class="input-container">
+                            <label for="fist-name">First Name*</label>
+                            <input name="first-name" type="text" id="first-name" required>
+                        </div>
+                        <div class="input-container">
+                            <label for="last-name">Last Name*</label>
+                            <input name="last-name" type="text" id="last-name" required>
+                        </div>
+
+                        <div class="input-container">
+                            <label for="email">Email*</label>
+                            <input name="email" type="email" id="email" required>
+                        </div>
+
+                        <div class="input-container">
+                            <label for="phone">Phone Number*</label>
+                            <input name="phone" id="phone" type="number" required>    
+                        </div>
+
+                        <div class="input-container">
+                            <label for="password">Password</label>
+                            <input
+                                name="password"
+                                type="password"
+                                id="password"
+                                pattern="(?=.*[A-Z])(?=.*[a-z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}"
+                                title="Password must contain at least 8 characters, including UPPER/lowercase and numbers"
+                                required>
+                                <p class="error-password">Password must contain at least 8 characters, including UPPER/lowercase and numbers*</p>
+                        </div>
+                        <div class="input-container">
+                            <label for="confirm-password">Confirm Password</label>
+                            <input name="confirm-password" type="password" id="confirm-password" required>
+                            <p class="error-confirm-password">Passwords must match*</p>
+                        </div>
+                        
+                    </div>
+                    <div class="shadow"></div>
+                    <button class="submit-button" type="submit">Sign Up</button>
+                </form>
+                <p class="end">Already have an account? <a href="#">Log in</a></p>
             </div>
         </div> 
     </div>
 
-    
+    <script src="script.js"></script>
 </body>
 </html>
